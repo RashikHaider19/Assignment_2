@@ -1,0 +1,360 @@
+/* font details */
+
+/* sans 400, 500, 600, 700 */
+/* font-family: 'Work Sans', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700&display=swap');
+
+
+body {
+    
+    font-family: 'Work Sans', sans-serif;
+}
+
+
+
+/* ==================================================Section-1============================================= */
+/* section-1 for the  upper part */
+.header {
+    width: 100%;
+    height: 1322px;
+    background: rgba(255, 144, 14, 0.1);
+}
+
+
+/* Div for navigator*/
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-title {
+    width: 302px;
+    height: 53px;
+    margin-left: 228px;
+    margin-top: 50px;
+}
+
+.nav-elements {
+    display: flex;
+    margin-right: 240px;
+    margin-top: 63px;
+    list-style: none;
+}
+
+.home, .about, .contact, .login {
+    margin-left: 50px;
+
+}
+
+nav ul li a {
+    text-decoration: none;
+}
+
+
+
+
+/* Div for title-para*/
+
+.title-para {
+    width: 862px;
+    height: 225px;
+    text-align: center;
+    margin: auto;
+
+}
+.title{
+    font-weight: 700;
+    font-size: 64px;
+}
+
+.primary-btn{
+    width: 131px;
+    height: 23px;
+    left: 895px;
+    top: 484px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #FFFFFF;
+    width: 180px;
+    height: 64px;
+    left: 870px;
+    top: 463px;
+    background-color: #FF900E;
+    border-radius: 8px;
+    border: none;
+    margin-top: 32px;
+
+}
+
+.pic-banner{
+    position: absolute;
+    width: 1440px;
+    height: 700px;
+    left: 240px;
+    top: 577px;
+
+}
+.para{
+    margin-bottom: 32px;
+}
+/* ==================================================Section-1 [END]============================================= */
+
+
+
+/* ==================================================Section-2============================================= */
+
+
+.main1{
+    display:flex;
+    align-items: center;
+    
+
+}
+.grid-div{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+    margin-left: 301px;
+    margin-right: 73px;
+    margin-top: 85px;
+}
+
+.main-title{
+
+    width: 537px;
+    height: 304px;
+    left: 1082px;
+    top: 1609px;
+    /* text-align: center; */
+}
+
+
+.mt-head{
+    margin-bottom: 0px;
+    width: 468px;
+    height: 106px;
+    left: 1085px;
+    top: 1609px;
+    font-weight: 500;
+    font-size: 45px;
+    line-height: 53px;
+    text-align: left;
+    
+
+    color: #727272;
+}
+
+.our{
+    font-weight: 700;
+    color: black;
+}
+.quick{
+    color: #727272;
+}
+.feature{
+    font-weight: 700;
+    color: #FF900E;
+    margin-bottom: 0px;
+}
+
+/* ==================================================Section-2 [END]============================================= */
+
+
+/* ==================================================Section-3============================================= */
+.main2{
+    display: flex;
+    width: 1440px;
+    height: 1059px;
+    left: 240px;
+    top: 2245px;
+    margin-left: 240px;
+    margin-right: 240px;
+    margin-top: 130px;
+
+}
+
+.main2div1{
+    width: 586px;
+    height: 982px;
+    left: 240px;
+    top: 2284px;
+
+}
+
+.main2div2{
+    width: 800px;
+    height: 1059px;
+    left: 880px;
+    top: 2245px;
+    margin-left: 54px;
+}
+.mt2-head{
+    width: 468px;
+    height: 106px;
+    left: 266px;
+    top: 2284px;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+
+    color: #131313;
+
+}
+
+.title-para2{
+    width: 586px;
+    height: 78px;
+    left: 240px;
+    top: 2414px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+}
+.article-para2{
+    width: 586px;
+    height: 744px;
+    left: 240px;
+    top: 2522px;
+    }
+
+.article-in{
+    padding: 30px 42px 30px 30px;
+    width: 514px;
+    height: 111px;
+    left: 270px;
+    top: 2552px;
+    margin-bottom: 20px;
+}
+.m2para{
+    width: 514px;
+    height: 78px;
+    left: 270px;
+    top: 2585px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+}
+.m2head{
+    width: 252px;
+    height: 23px;
+    left: 273px;
+    top: 2552px;
+
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+
+    color: #131313;
+}
+
+.architect-class{
+    width: 342px;
+    height: 200px;
+    left: 880px;
+    top: 3104px;
+
+    background: #FF900E;
+    border-radius: 8px;
+    border: none;
+}
+
+.year{
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 70px; 
+    margin-bottom: 0px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+.exp{
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 40px;
+    text-align: center;
+    margin-top: 0px;
+
+    color: #FFFFFF;
+
+}
+.main2div2{
+    display: flex;
+    
+}
+
+
+
+
+
+
+/* ==================================================Section-3 [END]============================================= */
+
+/* ==================================================Section-4============================================= */
+
+.main3{;
+}
+
+.main3-para{
+
+
+}
+
+.main3logo{
+
+}
+
+.main3logo{
+    display: flex;
+}
+
+.logobox{
+    border: 4px solid #FF900E;
+    border-radius: 6px;
+    text-align: center;
+    align-items: center;
+}
+
+
+/* ==================================================Section-4 [END]============================================= */
+
+/* ==================================================Section-5 ============================================= */
+
+.lastcr{
+    width: 1440px;
+    height: 100px;
+    left: 240px;
+    top: 4444px;
+
+    background: #FFF4E7;
+    border-radius: 8px;
+    width: 620px;
+    height: 23px;
+    left: 650px;
+    top: 4483px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    color: #424242;
+
+}
+
+.logobox1{
+    width: 166.76px;
+    height: 50px;
+    left: 240px;
+    top: 4264px;
+    
+    mix-blend-mode: luminosity
+}
+
+
+
+
+/* ==================================================Section-5 [END] ============================================= */
+
